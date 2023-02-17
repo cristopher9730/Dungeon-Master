@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="11" height="11" tilewidth="50" tileheight="50" infinite="0" nextlayerid="4" nextobjectid="43">
+ <tileset firstgid="1" source="dungeonTileSet1.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="11" height="11">
+  <data encoding="csv">
+1,1,1,1,2,2,2,1,1,1,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,
+2,2,2,2,2,2,2,2,2,2,1,
+2,2,2,2,2,2,2,2,2,2,1,
+2,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="3" name="Capa de Objetos 1">
+  <object id="17" name="Player" x="248.375" y="434.133" width="39" height="41"/>
+  <object id="24" x="200" y="50">
+   <polygon points="0,0 0,-50 -150,-50 -150,0 0,0"/>
+  </object>
+  <object id="25" x="50" y="0">
+   <polygon points="0,0 0,200 -50,200 -50,0"/>
+  </object>
+  <object id="26" x="350" y="0">
+   <polygon points="0,0 0,50 200,50 200,0"/>
+  </object>
+  <object id="27" x="500" y="50">
+   <polygon points="0,0 0,450 50,450 50,0"/>
+  </object>
+  <object id="29" x="50" y="500">
+   <polygon points="0,0 0,-150 -50,-150 -50,0"/>
+  </object>
+  <object id="30" name="Enemy" x="300" y="150" width="50" height="50"/>
+  <object id="31" name="Chest" x="83.2553" y="88.3793" width="39.7066" height="41.6278"/>
+  <object id="32" name="Healing" x="399.627" y="92.2217" width="39.0662" height="37.1448"/>
+  <object id="37" name="Ending" x="457.499" y="459.012" width="40.3936" height="40.3936"/>
+  <object id="40" x="0" y="500">
+   <polygon points="0,0 250,0 250,50 0,50"/>
+  </object>
+  <object id="41" x="300" y="500">
+   <polygon points="0,0 250,0 250,50 0,50"/>
+  </object>
+  <object id="42" x="250" y="500">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+ </objectgroup>
+</map>

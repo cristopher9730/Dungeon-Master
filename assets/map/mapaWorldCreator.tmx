@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="21" height="12" tilewidth="50" tileheight="50" infinite="0" nextlayerid="3" nextobjectid="10">
+ <tileset firstgid="1" source="dungeonTileSet.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="21" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQBZiISE6N21MxRM0eqmdTGAFolAbE=
+  </data>
+ </layer>
+ <objectgroup id="2" name="collision">
+  <object id="5" x="0" y="0">
+   <polygon points="0,0 0,50 1050,50 1050,0"/>
+  </object>
+  <object id="6" x="550" y="0">
+   <polygon points="0,0 0,600 50,600 50,0"/>
+  </object>
+  <object id="7" x="0" y="550">
+   <polygon points="0,0 1050,0 1050,50 0,50"/>
+  </object>
+  <object id="8" x="1000" y="600">
+   <polygon points="0,0 0,-600 50,-600 50,0"/>
+  </object>
+  <object id="9" x="0" y="0">
+   <polygon points="0,0 0,600 50,600 50,0"/>
+  </object>
+ </objectgroup>
+</map>

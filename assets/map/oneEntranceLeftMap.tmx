@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="11" height="11" tilewidth="50" tileheight="50" infinite="0" nextlayerid="3" nextobjectid="14">
+ <tileset firstgid="1" source="dungeonTileSet.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="11" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYCQBMxGBB4NaJiS1zCSoJcXcgQ4HYjEAxgwAzw==
+  </data>
+ </layer>
+ <objectgroup id="2" name="objetos">
+  <object id="6" name="jugador" x="100.545" y="249.636" width="49.4545" height="50.7273"/>
+  <object id="8" x="502" y="200.667">
+   <polygon points="0,0 -1.33333,-202 44.6667,-202 48.6667,-0.666667"/>
+  </object>
+  <object id="10" x="502" y="498">
+   <polygon points="0,0 -0.666667,-150 46,-147.333 47.3333,50.6667 -2,51.3333"/>
+  </object>
+  <object id="11" x="500" y="501.333">
+   <polygon points="0,0 -454,-3.33333 -454,44.6667 -2,46.6667"/>
+  </object>
+  <object id="12" x="52" y="497.333">
+   <polygon points="0,0 -1.33333,-450.667 -53.3333,-450.667"/>
+  </object>
+  <object id="13" x="502.667" y="50.6667">
+   <polygon points="0,0 -500,-6.66667 -502.667,-54.6667 -2.66667,-49.3333"/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="19" height="16" tilewidth="50" tileheight="50" infinite="0" nextlayerid="4" nextobjectid="9">
+ <tileset firstgid="1" source="dungeonTileSet1.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="19" height="16">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="3" name="Capa de Objetos 1">
+  <object id="2" x="600" y="50">
+   <polygon points="0,0 0,700 -50,700 -50,0"/>
+  </object>
+  <object id="3" x="600" y="200">
+   <polygon points="0,0 300,0 300,50 0,50"/>
+  </object>
+  <object id="4" x="600" y="500">
+   <polygon points="0,0 300,0 300,50 0,50"/>
+  </object>
+  <object id="5" x="900" y="50">
+   <polygon points="0,0 50,0 50,750 0,750"/>
+  </object>
+  <object id="6" x="0" y="750">
+   <polygon points="0,0 900,0 900,50 0,50"/>
+  </object>
+  <object id="7" x="0" y="750">
+   <polygon points="0,0 50,0 50,-750 0,-750"/>
+  </object>
+  <object id="8" x="50" y="0">
+   <polygon points="0,0 900,0 900,50 0,50"/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="11" height="11" tilewidth="50" tileheight="50" infinite="0" nextlayerid="3" nextobjectid="34">
+ <tileset firstgid="1" source="dungeonTileSet1.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="11" height="11">
+  <data encoding="csv">
+1,1,1,1,2,2,2,1,1,1,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,1,2,2,2,2,1,2,1,
+2,2,1,2,1,2,2,2,1,2,1,
+2,2,1,2,2,1,2,2,1,2,1,
+2,2,1,2,2,2,1,2,1,2,1,
+1,2,1,2,2,2,2,1,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,1,1,1,2,2,2,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="2" name="Capa de Objetos 1">
+  <object id="6" name="Player" x="340" y="238.667" width="39" height="41"/>
+  <object id="8" x="100" y="400">
+   <polygon points="0,0 0,-200 50,-200 50,0"/>
+  </object>
+  <object id="9" x="150" y="150">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+  <object id="10" x="200" y="200">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+  <object id="11" x="250" y="250">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+  <object id="12" x="300" y="300">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+  <object id="13" x="350" y="350">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+  <object id="14" x="400" y="350">
+   <polygon points="0,0 0,-200 50,-200 50,0"/>
+  </object>
+  <object id="15" x="50" y="200">
+   <polygon points="0,0 -50,0 -50,-200 0,-200"/>
+  </object>
+  <object id="16" x="50" y="0">
+   <polygon points="0,0 150,0 150,50 0,50"/>
+  </object>
+  <object id="17" x="350" y="0">
+   <polygon points="0,0 200,0 200,50 0,50"/>
+  </object>
+  <object id="19" x="500" y="550">
+   <polygon points="0,0 -150,0 -150,-50 0,-50"/>
+  </object>
+  <object id="20" x="200" y="550">
+   <polygon points="0,0 0,-50 -200,-50 -200,0"/>
+  </object>
+  <object id="21" x="50" y="500">
+   <polygon points="0,0 0,-150 -50,-150 -50,0"/>
+  </object>
+  <object id="22" name="Enemy" x="200" y="400" width="50" height="50"/>
+  <object id="23" name="Chest" x="123.603" y="92.2217" width="37.7853" height="36.5044"/>
+  <object id="24" name="Healing" x="412.756" y="89.9802" width="37.7853" height="36.5044"/>
+  <object id="26" name="Ending" x="154.809" y="212.855" width="39.1128" height="35.9105"/>
+  <object id="31" x="500" y="300">
+   <polygon points="0,0 50,0 50,200 50,250 0,250"/>
+  </object>
+  <object id="32" x="500" y="50">
+   <polygon points="0,0 50,0 50,200 0,200"/>
+  </object>
+  <object id="33" x="500" y="250">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+ </objectgroup>
+</map>

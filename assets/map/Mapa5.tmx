@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="11" height="11" tilewidth="50" tileheight="50" infinite="0" nextlayerid="3" nextobjectid="24">
+ <tileset firstgid="1" source="dungeonTileSet1.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="11" height="11">
+  <data encoding="csv">
+1,1,1,1,2,2,2,2,1,1,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,2,1,2,2,2,2,2,1,2,1,
+1,2,1,2,2,2,2,2,1,2,1,
+1,2,1,2,2,2,2,2,1,2,1,
+1,2,1,2,2,2,2,2,1,2,1,
+1,2,1,2,2,2,2,2,1,2,1,
+1,2,2,1,2,2,2,1,2,2,1,
+1,2,2,2,1,1,1,2,2,2,1,
+1,2,2,2,2,2,2,2,2,2,1,
+1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="2" name="Capa de Objetos 1">
+  <object id="2" x="100" y="101.545">
+   <polygon points="0,0 50,0 50,248.455 0,248.455 0,0"/>
+  </object>
+  <object id="4" x="400" y="350">
+   <polygon points="0,0 50,0 50,-248.466 0,-248.466 0,0"/>
+  </object>
+  <object id="5" name="Player" x="235.729" y="449.521" width="39" height="41"/>
+  <object id="7" x="150" y="350">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+  <object id="8" x="350" y="350">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+  <object id="9" x="350" y="400">
+   <polygon points="0,0 0,48.9922 -150,48.9922 -150,0"/>
+  </object>
+  <object id="10" x="400" y="0">
+   <polygon points="0,0 150,0 150,50 0,50"/>
+  </object>
+  <object id="11" x="500" y="50">
+   <polygon points="0,0 0,500 50,500 50,0"/>
+  </object>
+  <object id="13" x="50" y="500">
+   <polygon points="0,0 0,-500 -50,-500 -50,0"/>
+  </object>
+  <object id="14" x="50" y="50">
+   <polygon points="0,0 0,-50 150,-50 150,0"/>
+  </object>
+  <object id="15" name="Enemy" x="250" y="150" width="50" height="50"/>
+  <object id="16" name="Chest" x="181.881" y="278.586" width="37.1449" height="36.5045"/>
+  <object id="17" name="Healing" x="310.608" y="282.749" width="37.1449" height="36.5045"/>
+  <object id="18" name="Ending" x="431.882" y="444.283" width="33.9893" height="32.068"/>
+  <object id="21" x="0" y="500">
+   <polygon points="0,0 250,0 250,50 0,50"/>
+  </object>
+  <object id="22" x="300" y="500">
+   <polygon points="0,0 200,0 200,50 0,50"/>
+  </object>
+  <object id="23" x="250" y="500">
+   <polygon points="0,0 50,0 50,50 0,50"/>
+  </object>
+ </objectgroup>
+</map>
